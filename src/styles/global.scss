@@ -1,0 +1,8 @@
+@use "./_variables" as *;
+
+body {
+  font-family: $main-font;
+  max-width: 320px;
+  margin: 0 auto;
+  background-color: $main-color;
+}
