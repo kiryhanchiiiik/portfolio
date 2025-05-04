@@ -1,0 +1,46 @@
+.header {
+  position: relative;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+  }
+}
+
+.menu {
+  position: fixed;
+  right: -375px;
+  width: 375px;
+  height: 100vh;
+  transition: right 0.3s ease;
+  padding-top: 16px;
+  z-index: 2;
+  background-color: #030712;
+}
+
+.list {
+  padding: 16px;
+  border-top: 1px solid #1f2937;
+  border-bottom: 1px solid #1f2937;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.menu.open {
+  right: 0;
+}
+
+@media (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
