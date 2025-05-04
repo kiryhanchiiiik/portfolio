@@ -15,11 +15,12 @@ const About = () => {
       <div className={css.desc}>
         <h1 className={css.greet}>Hi, I’m Kyryl 👋</h1>
         <p className={css.about}>
-          I'm a full stack developer (React.js & Node.js) with a focus on
-          creating (and occasionally designing) exceptional digital experiences
-          that are fast, accessible, visually appealing, and responsive. Even
-          though I have been creating web applications for over 7 years, I still
-          love it as if it was something new.
+          I'm a budding full stack developer (React.js & Node.js) with about a
+          year of hands-on learning and practice. I'm passionate about building
+          modern, fast, accessible, and responsive web applications. Even though
+          I'm still early in my journey, I truly enjoy the process of creating
+          user-friendly and visually appealing interfaces, while also diving
+          into how things work behind the scenes on the backend.
         </p>
         <div className={css.location}>
           <p>

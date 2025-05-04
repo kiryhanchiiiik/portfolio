@@ -13,7 +13,9 @@ const Header = () => {
   return (
     <header className={css.header}>
       <div className={css.headerContainer}>
-        <a href="#">&lt;SH /&gt;</a>
+        <a className={css.logo} href="#">
+          &lt;SH /&gt;
+        </a>
         <button type="button" onClick={toggleMenu}>
           <img
             src={isMenuOpen ? cross : burger}
@@ -24,10 +26,18 @@ const Header = () => {
 
       <nav className={`${css.menu} ${isMenuOpen ? css.open : ""}`}>
         <ul className={css.list}>
-          <li>About</li>
-          <li>Work</li>
-          <li>Testimonials</li>
-          <li>Contact</li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Work</a>
+          </li>
+          <li>
+            <a href="#">Testimonials</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
