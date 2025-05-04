@@ -14,7 +14,7 @@ const Header = () => {
     <header className={css.header}>
       <div className={css.headerContainer}>
         <a className={css.logo} href="#">
-          &lt;SH /&gt;
+          &lt;kiryhanchik /&gt;
         </a>
         <button type="button" onClick={toggleMenu}>
           <img

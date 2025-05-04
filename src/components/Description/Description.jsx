@@ -3,8 +3,10 @@ import avatar from "../../assets/avatar.png";
 import locationPhoto from "../../assets/location.svg";
 import light from "../../assets/light.png";
 import github from "../../assets/github.svg";
-import twitter from "../../assets/twitter.svg";
-import figma from "../../assets/figma.svg";
+import linkedin from "../../assets/linkedin.svg";
+import instagram from "../../assets/instagram.svg";
+import discord from "../../assets/discord.svg";
+import telegram from "../../assets/telegram.svg";
 
 const Description = () => {
   return (
@@ -32,14 +34,20 @@ const Description = () => {
           </p>
         </div>
         <div className={css.socials}>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/kyryl-shchabelskyi/">
+            <img src={linkedin} alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/kiryhanchiiiik?tab=repositories">
             <img src={github} alt="" />
           </a>
-          <a href="#">
-            <img src={twitter} alt="" />
+          <a href="https://discord.com/users/428491636889223189">
+            <img src={discord} alt="" />
           </a>
-          <a href="#">
-            <img src={figma} alt="" />
+          <a href="https://www.instagram.com/kiryhanchiiiik/">
+            <img src={instagram} alt="" />
+          </a>
+          <a href="https://t.me/shchabelskyii">
+            <img src={telegram} alt="" />
           </a>
         </div>
       </div>
