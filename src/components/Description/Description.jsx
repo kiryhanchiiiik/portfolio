@@ -1,4 +1,4 @@
-import css from "./About.module.scss";
+import css from "./Description.module.scss";
 import avatar from "../../assets/avatar.png";
 import locationPhoto from "../../assets/location.svg";
 import light from "../../assets/light.png";
@@ -6,7 +6,7 @@ import github from "../../assets/github.svg";
 import twitter from "../../assets/twitter.svg";
 import figma from "../../assets/figma.svg";
 
-const About = () => {
+const Description = () => {
   return (
     <div className={css.container}>
       <div className={css.photoContainer}>
@@ -47,4 +47,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Description;
