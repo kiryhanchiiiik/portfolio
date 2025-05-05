@@ -5,7 +5,7 @@ import light from "../../img/light.png";
 
 const Description = () => {
   return (
-    <div className={css.container}>
+    <section className={css.container}>
       <div className={css.photoContainer}>
         <img className={css.photo} src={avatar} alt="Photo" />
       </div>
@@ -71,7 +71,7 @@ const Description = () => {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
