@@ -1,6 +1,5 @@
 import css from "./Header.module.scss";
-import burger from "../../assets/burger.svg";
-import cross from "../../assets/cross.svg";
+import sprite from "../../img/sprite.svg";
 import { useState } from "react";
 
 const Header = () => {
@@ -17,10 +16,9 @@ const Header = () => {
           &lt;kiryhanchik /&gt;
         </a>
         <button type="button" onClick={toggleMenu}>
-          <img
-            src={isMenuOpen ? cross : burger}
-            alt={isMenuOpen ? "Cross" : "Burger"}
-          />
+          <svg width={30} height={30}>
+            <use href={`${sprite}#${isMenuOpen ? "cross" : "burger"}`} />
+          </svg>
         </button>
       </div>
 

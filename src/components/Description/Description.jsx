@@ -1,12 +1,7 @@
 import css from "./Description.module.scss";
-import avatar from "../../assets/avatar.png";
-import locationPhoto from "../../assets/location.svg";
-import light from "../../assets/light.png";
-import github from "../../assets/github.svg";
-import linkedin from "../../assets/linkedin.svg";
-import instagram from "../../assets/instagram.svg";
-import discord from "../../assets/discord.svg";
-import telegram from "../../assets/telegram.svg";
+import sprite from "../../img/sprite.svg";
+import avatar from "../../img/avatar.png";
+import light from "../../img/light.png";
 
 const Description = () => {
   return (
@@ -26,7 +21,10 @@ const Description = () => {
         </p>
         <div className={css.location}>
           <p>
-            <img src={locationPhoto} alt="Location" /> Siauliai, Lithuania
+            <svg width={24} height={24}>
+              <use href={`${sprite}#location`}></use>
+            </svg>
+            Siauliai, Lithuania
           </p>
           <p>
             <img src={light} alt="light" />
@@ -34,20 +32,42 @@ const Description = () => {
           </p>
         </div>
         <div className={css.socials}>
-          <a href="https://www.linkedin.com/in/kyryl-shchabelskyi/">
-            <img src={linkedin} alt="LinkedIn" />
+          <a
+            className={css.link}
+            href="https://www.linkedin.com/in/kyryl-shchabelskyi/"
+          >
+            <svg className={css.svg} width={24} height={24}>
+              <use href={`${sprite}#linkedin`}></use>
+            </svg>
           </a>
-          <a href="https://github.com/kiryhanchiiiik?tab=repositories">
-            <img src={github} alt="" />
+          <a
+            className={css.link}
+            href="https://github.com/kiryhanchiiiik?tab=repositories"
+          >
+            <svg className={css.svg} width={24} height={24}>
+              <use href={`${sprite}#github`}></use>
+            </svg>
           </a>
-          <a href="https://discord.com/users/428491636889223189">
-            <img src={discord} alt="" />
+          <a
+            className={css.link}
+            href="https://discord.com/users/428491636889223189"
+          >
+            <svg className={css.svg} width={24} height={24}>
+              <use href={`${sprite}#discord`}></use>
+            </svg>
           </a>
-          <a href="https://www.instagram.com/kiryhanchiiiik/">
-            <img src={instagram} alt="" />
+          <a
+            className={css.link}
+            href="https://www.instagram.com/kiryhanchiiiik/"
+          >
+            <svg className={css.svg} width={24} height={24}>
+              <use href={`${sprite}#instagram`}></use>
+            </svg>
           </a>
-          <a href="https://t.me/shchabelskyii">
-            <img src={telegram} alt="" />
+          <a className={css.link} href="https://t.me/shchabelskyii">
+            <svg className={css.svg} width={24} height={24}>
+              <use href={`${sprite}#telegram`}></use>
+            </svg>
           </a>
         </div>
       </div>
