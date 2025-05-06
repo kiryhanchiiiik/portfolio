@@ -1,0 +1,39 @@
+.imgContainer {
+  border-radius: 12px 12px 0 0;
+  padding: 25px;
+  background-color: #374151;
+}
+
+.descContainer {
+  border-radius: 0 0 12px 12px;
+  padding: 20px;
+  background-color: #1f2937;
+
+  .descTitle {
+    margin-bottom: 24px;
+  }
+
+  .descPh {
+    width: 279px;
+    margin-bottom: 24px;
+  }
+}
+
+.techList {
+  width: 279px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.projList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.techListItem {
+  padding: 4px 20px;
+  border-radius: 12px;
+  background-color: #374151;
+}
