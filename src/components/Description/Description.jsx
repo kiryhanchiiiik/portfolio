@@ -10,7 +10,10 @@ const Description = () => {
         <img className={css.photo} src={avatar} alt="Photo" />
       </div>
       <div className={css.desc}>
-        <h1 className={css.greet}>Hi, I’m Kyryl 👋</h1>
+        <h1 className={css.greet}>
+          Hi, I’m Kyryl<span className={css.wave}>👋</span>
+        </h1>
+
         <p className={css.about}>
           I'm a budding full stack developer (React.js & Node.js) with about a
           year of hands-on learning and practice. I'm passionate about building
