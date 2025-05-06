@@ -1,5 +1,7 @@
 import css from "./ProjectList.module.scss";
-import picture from "../../img/Picture.png";
+import rentalCar from "../../img/rentalCar.png";
+import waterTracker from "../../img/waterTracker.png";
+import phoneBook from "../../img/phoneBook.png";
 import sprite from "../../img/sprite.svg";
 
 const ProjectList = () => {
@@ -7,36 +9,38 @@ const ProjectList = () => {
     <ul className={css.projList}>
       <li>
         <div className={css.imgContainer}>
-          <img src={picture} alt="Photo" />
+          <img style={{ borderRadius: 12 }} src={rentalCar} alt="Photo" />
         </div>
         <div className={css.descContainer}>
-          <h4 className={css.descTitle}>Fiskil</h4>
+          <h4 className={css.descTitle}>Rental Car</h4>
           <p className={css.descPh}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in
-            faucibus orci luctus et ultrices posuere cubilia curae.
+            Rental Car – a convenient car rental service with a fast booking
+            system. Developed a web app using React, Redux Toolkit, Axios,
+            Formik, Yup, and Vite. Implemented navigation (React Router), form
+            validation, and notifications (React Toastify), ensuring a smooth
+            user experience
           </p>
           <ul className={css.techList}>
             <li className={css.techListItem}>
               <p>React</p>
             </li>
             <li className={css.techListItem}>
-              <p>Next.js</p>
+              <p>Redux Toolkit</p>
             </li>
             <li className={css.techListItem}>
-              <p>TypeScript</p>
+              <p>CSS</p>
             </li>
             <li className={css.techListItem}>
-              <p>SCSS</p>
+              <p>Axios</p>
             </li>
             <li className={css.techListItem}>
-              <p>Tailwind</p>
+              <p>Formik</p>
             </li>
             <li className={css.techListItem}>
-              <p>Git</p>
+              <p>Vite</p>
             </li>
           </ul>
-          <a href="#">
+          <a href="https://rental-car-hddu.vercel.app/">
             <svg width={24} height={24}>
               <use href={`${sprite}#link`}></use>
             </svg>
@@ -45,36 +49,41 @@ const ProjectList = () => {
       </li>
       <li>
         <div className={css.imgContainer}>
-          <img src={picture} alt="Photo" />
+          <img style={{ borderRadius: 12 }} src={waterTracker} alt="Photo" />
         </div>
         <div className={css.descContainer}>
-          <h4 className={css.descTitle}>Fiskil</h4>
+          <h4 className={css.descTitle}>Water Tracker</h4>
           <p className={css.descPh}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in
-            faucibus orci luctus et ultrices posuere cubilia curae.
+            The project is built with React, Redux, and Redux Toolkit on the
+            frontend. As a backend developer, I handled server-side logic, API
+            development, and data storage. I focused on securely managing user
+            data, tracking water intake, calculating hydration goals, and
+            ensuring smooth communication between the frontend and backend
           </p>
           <ul className={css.techList}>
             <li className={css.techListItem}>
               <p>React</p>
             </li>
             <li className={css.techListItem}>
-              <p>Next.js</p>
+              <p>Redux Toolkit</p>
             </li>
             <li className={css.techListItem}>
-              <p>TypeScript</p>
+              <p>Node.js</p>
             </li>
             <li className={css.techListItem}>
-              <p>SCSS</p>
+              <p>Express.js</p>
             </li>
             <li className={css.techListItem}>
-              <p>Tailwind</p>
+              <p>CSS</p>
             </li>
             <li className={css.techListItem}>
               <p>Git</p>
             </li>
+            <li className={css.techListItem}>
+              <p>Figma</p>
+            </li>
           </ul>
-          <a href="#">
+          <a href="https://water-tracker-sand.vercel.app/welcome">
             <svg width={24} height={24}>
               <use href={`${sprite}#link`}></use>
             </svg>
@@ -83,36 +92,35 @@ const ProjectList = () => {
       </li>
       <li>
         <div className={css.imgContainer}>
-          <img src={picture} alt="Photo" />
+          <img style={{ borderRadius: 12 }} src={phoneBook} alt="Photo" />
         </div>
         <div className={css.descContainer}>
-          <h4 className={css.descTitle}>Fiskil</h4>
+          <h4 className={css.descTitle}>PhoneBook</h4>
           <p className={css.descPh}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
-            nec urna ac tellus volutpat viverra. Vestibulum ante ipsum primis in
-            faucibus orci luctus et ultrices posuere cubilia curae.
+            This project is a dynamic web application built using React, Redux
+            Toolkit, JavaScript, offering a smooth and interactive user
+            experience. It leverages modern web technologies to manage state
+            efficiently and update the UI seamlessly, ensuring a responsive and
+            engaging interface across various devices.
           </p>
           <ul className={css.techList}>
             <li className={css.techListItem}>
               <p>React</p>
             </li>
             <li className={css.techListItem}>
-              <p>Next.js</p>
+              <p>Redux Toolkit</p>
             </li>
             <li className={css.techListItem}>
-              <p>TypeScript</p>
-            </li>
-            <li className={css.techListItem}>
-              <p>SCSS</p>
-            </li>
-            <li className={css.techListItem}>
-              <p>Tailwind</p>
+              <p>CSS</p>
             </li>
             <li className={css.techListItem}>
               <p>Git</p>
             </li>
+            <li className={css.techListItem}>
+              <p>Figma</p>
+            </li>
           </ul>
-          <a href="#">
+          <a href="https://goit-react-hw-08-three-orpin-47.vercel.app/">
             <svg width={24} height={24}>
               <use href={`${sprite}#link`}></use>
             </svg>
