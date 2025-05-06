@@ -1,0 +1,43 @@
+.cert {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.inner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.certText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #374151;
+  border-radius: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 16px;
+}
+
+.certTitle {
+  text-align: center;
+  font-size: 18px;
+  line-height: 156%;
+  margin-bottom: 24px;
+}
+
+.certInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  background-color: #1f2937;
+
+  img {
+    width: 300px;
+    border-radius: 12px;
+  }
+}
