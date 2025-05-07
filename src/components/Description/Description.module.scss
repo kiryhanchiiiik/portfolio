@@ -54,6 +54,9 @@
   margin-top: 40px;
 }
 
+.svgLight {
+  margin-left: 5px;
+}
 .wave {
   display: inline-block;
   animation: wave-animation 2.5s infinite;
@@ -84,5 +87,47 @@
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pingWrapper {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.ping {
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background-color: rgba(34, 197, 94, 0.5);
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+  z-index: 0;
+}
+
+.svgLight {
+  position: relative;
+  z-index: 1;
+  fill: #22c55e;
+}
+
+@keyframes ping {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  75%,
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
   }
 }

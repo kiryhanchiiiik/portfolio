@@ -1,7 +1,6 @@
 import css from "./Description.module.scss";
 import sprite from "../../img/sprite.svg";
 import avatar from "../../img/avatar.png";
-import light from "../../img/light.png";
 
 const Description = () => {
   return (
@@ -29,8 +28,13 @@ const Description = () => {
             </svg>
             Siauliai, Lithuania
           </p>
-          <p>
-            <img src={light} alt="light" />
+          <p className={css.status}>
+            <span className={css.pingWrapper}>
+              <span className={css.ping}></span>
+              <svg className={css.svgLight} width={12} height={12}>
+                <use href={`${sprite}#dot`}></use>
+              </svg>
+            </span>
             Available for new projects
           </p>
         </div>
