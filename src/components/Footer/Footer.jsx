@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className={css.footer}>
       <div className={css.logoContainer}>
         <a href="#">&lt;kiryhanchik /&gt;</a>
-        <p>Be always kind ❤</p>
+        <p>Always be kind ❤</p>
       </div>
     </footer>
   );

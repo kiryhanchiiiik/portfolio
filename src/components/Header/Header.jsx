@@ -29,17 +29,35 @@ const Header = () => {
       <nav className={`${css.menu} ${isMenuOpen ? css.open : ""}`}>
         <ul className={css.list}>
           <li>
-            <Link to="about" smooth={true} duration={600} onClick={closeMenu}>
+            <Link
+              to="about"
+              smooth={true}
+              offset={-20}
+              duration={600}
+              onClick={closeMenu}
+            >
               About
             </Link>
           </li>
           <li>
-            <Link to="skills" smooth={true} duration={600} onClick={closeMenu}>
+            <Link
+              to="skills"
+              smooth={true}
+              offset={-20}
+              duration={600}
+              onClick={closeMenu}
+            >
               Skills
             </Link>
           </li>
           <li>
-            <Link to="work" smooth={true} duration={600} onClick={closeMenu}>
+            <Link
+              to="work"
+              smooth={true}
+              offset={-20}
+              duration={600}
+              onClick={closeMenu}
+            >
               Work
             </Link>
           </li>
@@ -47,6 +65,7 @@ const Header = () => {
             <Link
               to="certification"
               smooth={true}
+              offset={-20}
               duration={600}
               onClick={closeMenu}
             >

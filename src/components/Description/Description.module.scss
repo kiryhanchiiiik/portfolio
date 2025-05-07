@@ -1,10 +1,12 @@
 .container {
+  position: relative;
   padding-top: 40px;
   padding-bottom: 64px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  z-index: 1;
 }
 .photoContainer {
   position: relative;
