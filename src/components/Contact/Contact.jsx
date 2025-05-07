@@ -1,7 +1,14 @@
+import { toast } from "react-hot-toast";
 import css from "./Contact.module.scss";
 import sprite from "../../img/sprite.svg";
 
 const Contact = () => {
+  const handleCopy = (text) => {
+    navigator.clipboard
+      .writeText(text)
+      .then(() => toast.success("Copy to clipboard"));
+  };
+
   return (
     <section id="contact" className={css.contact}>
       <div className={css.inner}>
@@ -17,26 +24,30 @@ const Contact = () => {
             <svg width={24} height={24}>
               <use href={`${sprite}#post`}></use>
             </svg>
-            <a
-              className={css.contactLink}
-              href="mailto:kirillsabelkijk@gmail.com"
+            <p className={css.contactLink}>kirillsabelkijk@gmail.com</p>
+            <button
+              className={css.emailBtn}
+              onClick={() => handleCopy("kirillsabelkijk@gmail.com")}
             >
-              kirillsabelkijk@gmail.com
-            </a>
-            <svg width={24} height={24}>
-              <use href={`${sprite}#copy`}></use>
-            </svg>
+              <svg width={24} height={24}>
+                <use href={`${sprite}#copy`}></use>
+              </svg>
+            </button>
           </div>
+
           <div className={css.contactsLinks}>
             <svg width={24} height={24}>
               <use href={`${sprite}#phone`}></use>
             </svg>
-            <a className={css.contactLink} href="tel:+37068425972">
-              +370 684 25 972
-            </a>
-            <svg width={24} height={24}>
-              <use href={`${sprite}#copy`}></use>
-            </svg>
+            <p className={css.contactLink}> +370 684 25 972</p>
+            <button
+              className={css.contactLink}
+              onClick={() => handleCopy("+370 684 25 972")}
+            >
+              <svg width={24} height={24}>
+                <use href={`${sprite}#copy`}></use>
+              </svg>
+            </button>
           </div>
         </address>
         <p>You may also find me on these platforms!</p>

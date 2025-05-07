@@ -38,9 +38,12 @@
 }
 
 .contactLink {
+  display: flex;
+  gap: 16px;
   font-weight: 600;
   font-size: 18px;
   line-height: 156%;
+  color: #ffffff;
 }
 .contactDesc {
   font-weight: 400;
@@ -59,4 +62,11 @@
   align-items: start;
   gap: 16px;
   margin-top: 16px;
+}
+.emailBtn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 156%;
+  display: flex;
+  gap: 16px;
 }
