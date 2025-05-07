@@ -1,15 +1,11 @@
 import css from "./About.module.scss";
-import avatar from "../../img/avatar.png";
 
 const About = () => {
   return (
-    <section className={css.about}>
+    <section id="about" className={css.about}>
       <div className={css.inner}>
         <div className={css.aboutText}>
           <p>About me</p>
-        </div>
-        <div className={css.photoContainer}>
-          <img className={css.photo} src={avatar} alt="Photo" />
         </div>
         <div className={css.aboutDesc}>
           <h2>Curious about me? Here you have it:</h2>

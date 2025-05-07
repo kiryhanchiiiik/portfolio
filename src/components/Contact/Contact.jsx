@@ -3,7 +3,7 @@ import sprite from "../../img/sprite.svg";
 
 const Contact = () => {
   return (
-    <section className={css.contact}>
+    <section id="contact" className={css.contact}>
       <div className={css.inner}>
         <div className={css.contactText}>
           <p>Get in touch</p>

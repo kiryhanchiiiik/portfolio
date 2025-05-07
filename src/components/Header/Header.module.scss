@@ -1,4 +1,5 @@
 .header {
+  width: 100%;
   position: relative;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -41,5 +42,34 @@
 @media (min-width: 768px) {
   .menu {
     display: none;
+  }
+}
+
+.btnInner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  gap: 16px;
+}
+
+.themeContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cvBtn {
+  width: 100%;
+  border-radius: 12px;
+  padding: 6px 16px;
+
+  background-color: #ffffff;
+  > a {
+    color: #111827;
   }
 }

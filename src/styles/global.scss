@@ -8,6 +8,9 @@ body {
   background-color: $main-color;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 a {
   font-weight: 500;
   font-size: 16px;
@@ -17,6 +20,10 @@ a {
 }
 
 button {
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
   background-color: transparent;
   border: none;
   cursor: pointer;

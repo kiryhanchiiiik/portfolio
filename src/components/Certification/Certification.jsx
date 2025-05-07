@@ -3,7 +3,7 @@ import cert from "../../img/cert.jpg";
 
 const Certification = () => {
   return (
-    <section className={css.cert}>
+    <section id="certification" className={css.cert}>
       <div className={css.inner}>
         <div className={css.certText}>
           <p>Certification</p>

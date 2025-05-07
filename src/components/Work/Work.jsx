@@ -3,7 +3,7 @@ import css from "./Work.module.scss";
 
 const Work = () => {
   return (
-    <section className={css.work}>
+    <section id="work" className={css.work}>
       <div className={css.inner}>
         <div className={css.workText}>
           <p>Work</p>
