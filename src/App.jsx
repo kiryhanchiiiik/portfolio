@@ -11,18 +11,17 @@ import css from "./App.module.scss";
 
 function App() {
   return (
-    <div>
+    <div className={css.container}>
       <Header />
-      <div className={css.container}>
-        <Description />
-        <About />
-        <Skills />
-        <Work />
-        <Certification />
-        <Contact />
-        <Toaster position="bottom-center" />
-        <Footer />
-      </div>
+
+      <Description />
+      <About />
+      <Skills />
+      <Work />
+      <Certification />
+      <Contact />
+      <Toaster position="bottom-center" />
+      <Footer />
     </div>
   );
 }
