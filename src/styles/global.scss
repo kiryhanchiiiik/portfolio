@@ -1,5 +1,9 @@
 @use "./_variables" as *;
 
+html,
+body {
+  overflow-x: hidden;
+}
 body {
   font-family: $main-font;
   margin: 0 auto;
