@@ -68,3 +68,17 @@
   display: flex;
   gap: 30px;
 }
+
+@media screen and (min-width: 1440px) {
+  .aboutText {
+    margin-bottom: 48px;
+  }
+  .aboutDesc {
+    width: 1200px;
+
+    h2 {
+      margin-bottom: 24px;
+      text-align: center;
+    }
+  }
+}
