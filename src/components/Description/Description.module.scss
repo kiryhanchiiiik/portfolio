@@ -1,7 +1,9 @@
-.container {
-  position: relative;
+.description {
   padding-top: 40px;
   padding-bottom: 64px;
+}
+.container {
+  position: relative;
   padding-left: 16px;
   padding-right: 16px;
   display: flex;
@@ -133,5 +135,33 @@
   100% {
     transform: scale(2.5);
     opacity: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .description {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .container {
+    flex-direction: row-reverse;
+    gap: 48px;
+  }
+  .desc {
+    width: 768px;
+  }
+  .greet {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120%;
+  }
+  .ping {
+    top: 6px;
+  }
+  .about {
+    margin-bottom: 48px;
+  }
+  .socials {
+    margin-top: 48px;
   }
 }
