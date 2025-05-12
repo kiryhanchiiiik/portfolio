@@ -36,6 +36,14 @@
   border-radius: 12px;
   background-color: #1f2937;
 
+  > a {
+    transition: transform 0.5s ease;
+  }
+
+  &:hover a {
+    transform: scale(1.1);
+  }
+
   img {
     width: 320px;
     border-radius: 12px;
