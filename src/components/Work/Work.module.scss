@@ -31,3 +31,13 @@
   line-height: 156%;
   margin-bottom: 24px;
 }
+
+@media screen and (min-width: 1440px) {
+  .work {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .ph {
+    margin-bottom: 48px;
+  }
+}

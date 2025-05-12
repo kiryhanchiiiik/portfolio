@@ -9,7 +9,7 @@ const ProjectList = () => {
     <ul className={css.projList}>
       <li>
         <div className={css.imgContainer}>
-          <img style={{ borderRadius: 12 }} src={rentalCar} alt="Photo" />
+          <img className={css.img} src={rentalCar} alt="Photo" />
         </div>
         <div className={css.descContainer}>
           <h4 className={css.descTitle}>Rental Car</h4>
@@ -47,11 +47,11 @@ const ProjectList = () => {
           </a>
         </div>
       </li>
-      <li>
-        <div className={css.imgContainer}>
-          <img style={{ borderRadius: 12 }} src={waterTracker} alt="Photo" />
+      <li className={css.projListChangeItem}>
+        <div className={`${css.imgContainer} ${css.imgContainerReverse}`}>
+          <img className={css.img} src={waterTracker} alt="Photo" />
         </div>
-        <div className={css.descContainer}>
+        <div className={`${css.descContainer} ${css.descContainerReverse}`}>
           <h4 className={css.descTitle}>Water Tracker</h4>
           <p className={css.descPh}>
             The project is built with React, Redux, and Redux Toolkit on the
@@ -92,7 +92,7 @@ const ProjectList = () => {
       </li>
       <li>
         <div className={css.imgContainer}>
-          <img style={{ borderRadius: 12 }} src={phoneBook} alt="Photo" />
+          <img className={css.img} src={phoneBook} alt="Photo" />
         </div>
         <div className={css.descContainer}>
           <h4 className={css.descTitle}>PhoneBook</h4>
