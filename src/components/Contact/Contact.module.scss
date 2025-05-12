@@ -39,6 +39,7 @@
 
 .contactLink {
   display: flex;
+
   gap: 16px;
   font-weight: 600;
   font-size: 18px;
@@ -54,6 +55,7 @@
 }
 .contactsLinks {
   display: flex;
+  align-items: center;
   gap: 16px;
 }
 
@@ -69,4 +71,31 @@
   line-height: 156%;
   display: flex;
   gap: 16px;
+}
+
+@media screen and (min-width: 1440px) {
+  .contact {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .contactDesc {
+    margin-bottom: 48px;
+  }
+
+  .contacts {
+    margin-bottom: 48px;
+  }
+
+  .contactLink {
+    font-size: 36px;
+    line-height: 111%;
+  }
+  .contactsLinks {
+    gap: 20px;
+
+    svg {
+      width: 32px;
+      height: 32px;
+    }
+  }
 }
