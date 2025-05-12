@@ -37,7 +37,25 @@
   background-color: #1f2937;
 
   img {
-    width: 300px;
+    width: 320px;
     border-radius: 12px;
+  }
+}
+
+.ph {
+  width: 355px;
+}
+
+@media screen and (min-width: 1440px) {
+  .certInner {
+    width: 500px;
+    padding: 30px;
+
+    img {
+      width: 350px;
+    }
+  }
+  .ph {
+    width: 500px;
   }
 }
