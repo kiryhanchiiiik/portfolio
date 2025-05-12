@@ -16,3 +16,15 @@
     font-size: 12px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .logoContainer {
+    > a {
+      font-size: 27px;
+    }
+
+    > p {
+      font-size: 16px;
+    }
+  }
+}
