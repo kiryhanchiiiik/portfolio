@@ -40,7 +40,11 @@ const ProjectList = () => {
               <p>Vite</p>
             </li>
           </ul>
-          <a className={css.link} href="https://rental-car-hddu.vercel.app/">
+          <a
+            className={css.link}
+            href="https://rental-car-hddu.vercel.app/"
+            target="_blank"
+          >
             <svg width={24} height={24}>
               <use href={`${sprite}#link`}></use>
             </svg>
@@ -86,6 +90,7 @@ const ProjectList = () => {
           <a
             className={css.link}
             href="https://water-tracker-sand.vercel.app/welcome"
+            target="_blank"
           >
             <svg width={24} height={24}>
               <use href={`${sprite}#link`}></use>
@@ -126,6 +131,7 @@ const ProjectList = () => {
           <a
             className={css.link}
             href="https://goit-react-hw-08-three-orpin-47.vercel.app/"
+            target="_blank"
           >
             <svg width={24} height={24}>
               <use href={`${sprite}#link`}></use>

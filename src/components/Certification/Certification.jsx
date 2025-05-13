@@ -10,7 +10,10 @@ const Certification = () => {
         </div>
         <p className={css.certTitle}>My Certificates:</p>
         <div className={css.certInner}>
-          <a href="https://drive.google.com/file/d/1X-71YbFZA1ZM_3l77Q1wXKGAAEC-VFQS/view?usp=sharing">
+          <a
+            href="https://drive.google.com/file/d/1X-71YbFZA1ZM_3l77Q1wXKGAAEC-VFQS/view?usp=sharing"
+            target="_blank"
+          >
             <img src={cert} alt="Certification" />
           </a>
           <p>GoIT School Certificate😎</p>

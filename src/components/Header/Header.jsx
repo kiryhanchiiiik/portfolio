@@ -20,7 +20,6 @@ const Header = () => {
           &lt;kiryhanchik /&gt;
         </a>
 
-        {/* Навигация для десктопа */}
         <nav className={css.desktopNav}>
           <ul className={css.list}>
             <li>
@@ -63,7 +62,7 @@ const Header = () => {
             </div>
             <button className={css.cvBtn} type="button">
               <a
-                href="../../../public/cv/Kyryl_Shchabelskyi_FullStackDeveloper.pdf"
+                href="https://drive.google.com/file/d/1ELdQ5jl_lZvH8LoJ23Ql1K-gRVHop1Y3/view?usp=sharing"
                 download
               >
                 Download CV
@@ -72,7 +71,6 @@ const Header = () => {
           </div>
         </nav>
 
-        {/* Бургер-кнопка для мобилки */}
         <button className={css.openBtn} type="button" onClick={toggleMenu}>
           <svg width={30} height={30}>
             <use href={`${sprite}#${isMenuOpen ? "cross" : "burger"}`} />
@@ -80,7 +78,6 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Мобильное меню */}
       <nav className={`${css.mobileMenu} ${isMenuOpen ? css.open : ""}`}>
         <ul className={css.list}>
           <li>
@@ -150,8 +147,8 @@ const Header = () => {
           </div>
           <button className={css.cvBtn} type="button">
             <a
-              href="../../../public/cv/Kyryl_Shchabelskyi_FullStackDeveloper.pdf"
-              download
+              href="https://drive.google.com/file/d/1ELdQ5jl_lZvH8LoJ23Ql1K-gRVHop1Y3/view?usp=sharing"
+              target="_blank"
             >
               Download CV
             </a>

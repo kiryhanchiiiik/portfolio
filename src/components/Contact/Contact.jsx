@@ -56,6 +56,7 @@ const Contact = () => {
           <a
             className={css.link}
             href="https://www.linkedin.com/in/kyryl-shchabelskyi/"
+            target="_blank"
           >
             <svg className={css.svg} width={24} height={24}>
               <use href={`${sprite}#linkedin`}></use>
@@ -64,6 +65,7 @@ const Contact = () => {
           <a
             className={css.link}
             href="https://github.com/kiryhanchiiiik?tab=repositories"
+            target="_blank"
           >
             <svg className={css.svg} width={24} height={24}>
               <use href={`${sprite}#github`}></use>
@@ -72,6 +74,7 @@ const Contact = () => {
           <a
             className={css.link}
             href="https://discord.com/users/428491636889223189"
+            target="_blank"
           >
             <svg className={css.svg} width={24} height={24}>
               <use href={`${sprite}#discord`}></use>
@@ -80,12 +83,17 @@ const Contact = () => {
           <a
             className={css.link}
             href="https://www.instagram.com/kiryhanchiiiik/"
+            target="_blank"
           >
             <svg className={css.svg} width={24} height={24}>
               <use href={`${sprite}#instagram`}></use>
             </svg>
           </a>
-          <a className={css.link} href="https://t.me/shchabelskyii">
+          <a
+            className={css.link}
+            href="https://t.me/shchabelskyii"
+            target="_blank"
+          >
             <svg className={css.svg} width={24} height={24}>
               <use href={`${sprite}#telegram`}></use>
             </svg>
