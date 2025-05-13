@@ -26,7 +26,7 @@ const Contact = () => {
             </svg>
             <p className={css.contactLink}>kirillsabelkijk@gmail.com</p>
             <button
-              className={css.emailBtn}
+              className={css.copyBtn}
               onClick={() => handleCopy("kirillsabelkijk@gmail.com")}
             >
               <svg width={24} height={24}>
@@ -41,7 +41,7 @@ const Contact = () => {
             </svg>
             <p className={css.contactLink}> +370 684 25 972</p>
             <button
-              className={css.contactLink}
+              className={css.copyBtn}
               onClick={() => handleCopy("+370 684 25 972")}
             >
               <svg width={24} height={24}>
@@ -50,6 +50,7 @@ const Contact = () => {
             </button>
           </div>
         </address>
+
         <p>You may also find me on these platforms!</p>
         <div className={css.socials}>
           <a
