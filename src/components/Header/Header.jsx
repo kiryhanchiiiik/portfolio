@@ -5,6 +5,11 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isPressBtn, setIsPressBtn] = useState(false);
+
+  const toggleBtn = () => {
+    setIsPressBtn(!isPressBtn);
+  };
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -54,9 +59,9 @@ const Header = () => {
 
           <div className={css.btnInnerDesk}>
             <div className={css.themeContainer}>
-              <button type="button">
+              <button type="button" onClick={toggleBtn}>
                 <svg width={24} height={24}>
-                  <use href={`${sprite}#moon`}></use>
+                  <use href={`${sprite}#${isPressBtn ? "sun" : "moon"}`}></use>
                 </svg>
               </button>
             </div>
