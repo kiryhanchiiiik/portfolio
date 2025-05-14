@@ -1,7 +1,7 @@
 .imgContainer {
   border-radius: 12px 12px 0 0;
   padding: 25px;
-  background-color: #374151;
+  background-color: $section-bg-color;
 }
 
 .img {
@@ -12,7 +12,7 @@
 .descContainer {
   border-radius: 0 0 12px 12px;
   padding: 20px;
-  background-color: #1f2937;
+  background-color: $card-color;
 
   .descTitle {
     margin-bottom: 24px;
@@ -40,7 +40,7 @@
 .techListItem {
   padding: 4px 20px;
   border-radius: 12px;
-  background-color: #374151;
+  background-color: $section-bg-color;
 }
 
 .link {
@@ -55,7 +55,7 @@
 
   &:hover,
   &:focus {
-    background-color: #111827;
+    background-color: $secondary-color;
   }
 }
 

@@ -7,7 +7,7 @@
   margin-right: -50vw;
   padding-top: 64px;
   padding-bottom: 64px;
-  background-color: #111827;
+  background-color: $secondary-color;
 }
 .inner {
   max-width: 100%;
@@ -19,7 +19,7 @@
   display: flex;
 }
 .workText {
-  background-color: #374151;
+  background-color: $section-bg-color;
   border-radius: 12px;
   padding: 4px 20px;
   margin-bottom: 16px;

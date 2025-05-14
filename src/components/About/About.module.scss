@@ -7,7 +7,7 @@
   margin-right: -50vw;
   padding-top: 64px;
   padding-bottom: 64px;
-  background-color: #111827;
+  background-color: $secondary-color;
 }
 
 .inner {
@@ -24,7 +24,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #374151;
+  background-color: $section-bg-color;
   border-radius: 12px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -41,7 +41,7 @@
   border-radius: 30%;
   width: 280px;
   height: 280px;
-  background-color: #374151;
+  background-color: $section-bg-color;
   margin-bottom: 48px;
 }
 
