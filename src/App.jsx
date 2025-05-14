@@ -11,9 +11,8 @@ import css from "./App.module.scss";
 
 function App() {
   return (
-    <div className={css.container}>
+    <div className={css.container} data-theme="light">
       <Header />
-
       <Description />
       <About />
       <Skills />
