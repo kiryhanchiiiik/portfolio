@@ -4,3 +4,14 @@
   min-width: 320px;
   margin: 0 auto;
 }
+
+.scrollbar :global(.simplebar-scrollbar::before) {
+  width: 10px;
+  background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  :global(.simplebar-track) {
+    display: none !important;
+  }
+}
