@@ -2,6 +2,8 @@
 
 A personal portfolio website built with **React**, **SCSS Modules**, **react-hot-toast**, and fully responsive layout across all devices.
 
+This site showcases facts about me, projects I have participated in, and my certificates.💯💯💯
+
 ---
 
 ## 🚀 Tech Stack
