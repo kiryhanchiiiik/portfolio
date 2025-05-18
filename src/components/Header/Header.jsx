@@ -142,14 +142,14 @@ const Header = () => {
           </li>
         </ul>
         <div className={css.btnInnerMobile}>
-          <div className={css.themeContainer}>
+          {/* <div className={css.themeContainer}>
             <p>Switch Theme</p>
             <button type="button">
               <svg width={24} height={24}>
                 <use href={`${sprite}#moon`}></use>
               </svg>
             </button>
-          </div>
+          </div> */}
           <button className={css.cvBtn} type="button">
             <a
               href="https://drive.google.com/file/d/1ELdQ5jl_lZvH8LoJ23Ql1K-gRVHop1Y3/view?usp=sharing"
