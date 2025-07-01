@@ -4,6 +4,7 @@ import waterTracker from "../../img/waterTracker.png";
 import phoneBook from "../../img/phoneBook.png";
 import learnLingo from "../../img/learn-lingo.png";
 import nannyServices from "../../img/nannyServices.jpg";
+import gallery from "../../img/gallery.jpg";
 import sprite from "../../img/sprite.svg";
 
 const ProjectList = () => {
@@ -246,6 +247,47 @@ const ProjectList = () => {
           <a
             className={css.link}
             href="https://nanny-services-xi.vercel.app/"
+            target="_blank"
+          >
+            <svg width={24} height={24}>
+              <use href={`${sprite}#link`}></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li className={css.projListChangeItem}>
+        <div className={`${css.imgContainer} ${css.imgContainerReverse}`}>
+          <img className={css.img} src={gallery} alt="Photo" />
+        </div>
+        <div className={`${css.descContainer} ${css.descContainerReverse}`}>
+          <h4 className={css.descTitle}>Gallery</h4>
+          <p className={css.descPh}>
+            Gallery is an interactive web application built with React,
+            TypeScript, and modern frontend development practices. It features
+            image search by keywords with results displayed in a gallery layout.
+            Clicking on an image opens it in full-screen mode, with a strong
+            focus on user experience (UX).
+          </p>
+          <ul className={css.techList}>
+            <li className={css.techListItem}>
+              <p>React</p>
+            </li>
+            <li className={css.techListItem}>
+              <p>TypeScript</p>
+            </li>
+            <li className={css.techListItem}>
+              <p>CSS</p>
+            </li>
+            <li className={css.techListItem}>
+              <p>Git</p>
+            </li>
+            <li className={css.techListItem}>
+              <p>Axios</p>
+            </li>
+          </ul>
+          <a
+            className={css.link}
+            href="https://goit-typescript-hw-02-azure-two.vercel.app/"
             target="_blank"
           >
             <svg width={24} height={24}>
