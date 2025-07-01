@@ -3,6 +3,7 @@ import rentalCar from "../../img/rentalCar.png";
 import waterTracker from "../../img/waterTracker.png";
 import phoneBook from "../../img/phoneBook.png";
 import learnLingo from "../../img/learn-lingo.png";
+import nannyServices from "../../img/nannyServices.jpg";
 import sprite from "../../img/sprite.svg";
 
 const ProjectList = () => {
@@ -188,6 +189,63 @@ const ProjectList = () => {
           <a
             className={css.link}
             href="https://learn-lingo-lyart.vercel.app/"
+            target="_blank"
+          >
+            <svg width={24} height={24}>
+              <use href={`${sprite}#link`}></use>
+            </svg>
+          </a>
+        </div>
+      </li>
+      <li>
+        <div className={css.imgContainer}>
+          <img className={css.img} src={nannyServices} alt="Photo" />
+        </div>
+        <div className={css.descContainer}>
+          <h4 className={css.descTitle}>Nanny Services</h4>
+          <p className={css.descPh}>
+            Nanny Services is a web application built with TypeScript and React
+            using Firebase, allowing parents to find and book professional
+            nannies based on filters like experience, price, and location,
+            featuring email authentication, editable user profiles, detailed
+            nanny pages, a booking system, admin panel, and technologies such as
+            Redux Toolkit, SCSS, React Hook Form, and React Router DOM.
+          </p>
+          <ul className={css.techList}>
+            <li className={css.techListItem}>
+              <p>React</p>
+            </li>
+            <li className={css.techListItem}>
+              <p>TypeScript</p>
+            </li>
+            <li className={css.techListItem}>
+              <p>Vite</p>
+            </li>
+            <li className={css.techListItem}>
+              <p>Redux Toolkit</p>
+            </li>
+            <li className={css.techListItem}>
+              <p>FireBase</p>
+            </li>
+            <li className={css.techListItem}>
+              <p>React Router DOM</p>
+            </li>
+            <li className={css.techListItem}>
+              <p>React Hook Form</p>
+            </li>
+            <li className={css.techListItem}>
+              <p>SCSS</p>
+            </li>
+            <li className={css.techListItem}>
+              <p>Git</p>
+            </li>
+            <li className={css.techListItem}>
+              <p>Figma</p>
+            </li>
+          </ul>
+          <a
+            className={css.link}
+            href="https://nanny-services-xi.vercel.app/"
             target="_blank"
           >
             <svg width={24} height={24}>
